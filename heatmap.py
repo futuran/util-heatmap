@@ -80,11 +80,10 @@ def phrasebyphrase(args):
         # print(f'{adj=}')
         # print(f'{sep_index=}')
         # print(f'{adj_mat=}')
-
-        draw_heatmap(adj_mat, i, src)
-
-        if i == 100:
+        if i == 261:
+            draw_heatmap(adj_mat, i, src)
             break
+
 
 
 
